@@ -1,0 +1,650 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+
+
+
+}
+
+h5 {
+  color: #c9c9c9 !important;
+}
+
+
+
+a {
+
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none !important;
+
+
+
+}
+
+p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+i {
+  padding: 10px;
+  text-align: center;
+
+
+
+}
+
+span:hover {
+  color: #00a3da !important;
+}
+
+/* NAVIGATION */
+
+
+
+
+.navbar {
+
+  padding: 0 5% !important;
+}
+
+.navbar-container {
+  padding-top: 2rem;
+}
+
+.navbar-brand {
+  font-size: 2rem !important;
+}
+
+
+
+.nav-link:hover {
+
+  color: rgb(0 164 220) !important;
+  text-decoration: underline !important;
+
+}
+
+.navbar .navbar-collapse {
+  padding-left: 3%;
+
+}
+
+.dropdown-item:hover {
+  background: rgba(0, 170, 255, 0.05) !important;
+
+}
+
+.logo-img{
+  width: auto;
+  max-width: 70px;
+}
+
+
+
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+ 
+}
+
+@media (max-width : 991px){
+  .navbar-brand{
+    font-size: 1rem !important;
+  
+  }
+
+  .logo-img{
+    max-width: 50px;
+    width: auto;
+  }
+}
+/* Navigation END */
+
+
+
+
+
+
+
+.bg-img {
+
+  background-image: url(../img/pexels-tim-mossholder-974314.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
+.bg-text {
+
+
+  color: #f5f5f5;
+  font-weight: bolder;
+  font-size: 3.8rem;
+
+
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* TITLE */
+
+
+#title {
+
+
+  box-sizing: border-box;
+  height: 80vh;
+}
+
+
+
+
+
+/* Message boxes START  */
+
+
+
+
+#messages {
+  text-align: left;
+  padding: 7% 5%;
+
+}
+
+
+.message-text {
+  text-align: left;
+
+  font-size: 1.5rem !important;
+  font-weight: bolder;
+}
+
+
+.message-text:hover {
+
+  color: rgb(0 164 220) !important;
+  transition: 0.5s ease;
+}
+
+
+.message-p {
+  text-align: justify;
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif !important;
+  color: #333333;
+
+}
+
+
+.message-box {
+  width: 30px;
+}
+
+
+.message-icon {
+  font-size: 52px;
+  color: #2B6ABC;
+
+}
+
+
+/* Message boxes END */
+
+
+
+
+
+
+
+/* Features Start */
+
+
+#features {
+  padding: 3% 0%;
+  background-color: #f5f5f5;
+
+
+}
+
+.features-text {
+  padding-top: 12px;
+  font-size: xx-large;
+  color: #818386;
+
+}
+
+
+.features-text:hover {
+  color: #2B6ABC;
+}
+
+
+.feature-header {
+  font-family: 'Poppins', sans-serif !important;
+  padding-bottom: 4.5rem;
+  padding-top: 3.5rem;
+  font-weight: 600 !important;
+  font-size: 2.8rem;
+  letter-spacing: -0.02em;
+  color: #2B6ABC;
+
+
+}
+
+
+.feature-box {
+  margin-bottom: 10%;
+}
+
+
+.text-divider {
+  display: flex;
+  align-items: center;
+  --text-divider-gap: 1rem;
+}
+
+
+.text-divider::before,
+.text-divider::after {
+  content: '';
+  height: 1px;
+  background-color: #2B6ABC;
+  flex-grow: 0.05;
+  margin: auto;
+}
+
+.text-divider::before {
+  margin-right: var(--text-divider-gap);
+}
+
+
+.text-divider::after {
+  margin-left: var(--text-divider-gap);
+}
+
+/* Features icindeki urunler kismi. */
+
+
+
+.inline-photo {
+  border: 1em solid #fff;
+  border-bottom: 4em solid #fff;
+  border-radius: .25em;
+  box-shadow: 1em 1em 2em .25em rgba(0, 0, 0, .2);
+  margin: 2em auto;
+  opacity: 0;
+  transform: translateY(4em) rotateZ(-5deg);
+  transition: transform 4s .25s cubic-bezier(0, 1, .3, 1),
+    opacity .2s .25s ease-out;
+  max-width: 600px;
+  width: 90%;
+  will-change: transform, opacity;
+}
+
+.inline-photo.is-visible {
+  opacity: 1;
+  transform: rotateZ(-1deg);
+}
+
+
+/* Features END */
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+
+  background: rgb(54 54 54);
+
+}
+
+
+footer a {
+  text-decoration: none;
+
+}
+
+#footer {
+  padding: 7% 10%;
+
+
+
+}
+
+.footer-icon {
+  font-size: x-large;
+  color: #818386;
+}
+
+.footer-icon:hover {
+  color: #2B6ABC;
+  transition: 0.5s linear;
+}
+
+.footerone {
+  text-align: center;
+}
+
+.footerstyle {
+  color: #818386 !important;
+  font-size: 1rem;
+  line-height: normal;
+  text-decoration: none;
+
+
+}
+
+.footerstyle:hover {
+  color: #2B6ABC !important;
+  transition: 0.3s linear;
+}
+
+.footer-box{
+  padding: 3px 0 50px !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* ILETISIM  */
+
+#iletisim {
+
+
+  padding: 7% 15%;
+
+
+}
+
+.content {
+
+  position: relative;
+  right: 10%;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+.content .content-overlay {
+  background: rgba(0, 93, 124, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+  opacity: 0;
+}
+
+.content-image {
+  width: 100%;
+
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+}
+
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.5em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+@media (max-width : 991px) {
+  .content {
+
+    position: relative;
+    right: 2% !important;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+
+  }
+
+  .content-image {
+    padding-bottom: 20px !important;
+  }
+}
+
+
+
+
+/* GENERAL PRODUCT ATTR */
+
+
+#products-width {
+
+  box-sizing: border-box;
+  height: 45vh;
+
+}
+
+
+.product-img {
+  border-radius: 50px !important;
+  padding-right: 2rem !important;
+  max-width: 500px !important;
+  width: auto !important;
+  
+
+}
+@media (max-width : 991px){
+  .product-img{
+    padding-bottom: 2rem;
+    border-radius: 20px !important;
+    max-width: 300px !important;
+
+  }
+  .product-text{
+    text-align: justify !important;
+    font-size: small !important;
+   
+  }
+}
+
+.product-text {
+  padding-top: 5px;
+  text-align: justify ;
+}
+
+.bg-img-sections {
+  background-image: url(../img/pexels-tim-mossholder-974314.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+}
+
+
+
+
+/* INTRO */
+.azul-logo{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  width: auto;
+  max-width: 70px;
+  transform: translateY(100%);
+}
+.intro{
+  background-color: #2B6ABC;
+  
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.intro-text{
+  
+  color: rgb(233, 233, 233);
+ 
+  font-size: 3rem !important;
+}
+.slider {
+  background:#2B6ABC;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+.hide {
+  
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+/* PRODUCTS */
+
+
+.misir-ddgs {
+  background-image: url(../img/misir-ddgs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+}
+
+
+.misir{
+  background-image: url(../img/misir.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+}
+.soya-kuspesi{
+  background-image: url(../img/soya-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+  
+}
+
+.glutenli-bugday{
+  background-image: url(../img/glutenli_bugday.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.bugday-kepegi{
+  background-image: url(../img/bugday-kepegi-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.arpa{
+  background-image: url(../img/arpa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+}
