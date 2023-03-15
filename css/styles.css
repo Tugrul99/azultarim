@@ -593,7 +593,7 @@ footer a {
 
 
 .misir-ddgs {
-  background-image: url(./img/misir-ddgs.jpg);
+  background-image: url(../img/misir-ddgs.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -604,7 +604,7 @@ footer a {
 
 
 .misir{
-  background-image: url(./img/misir.jpg);
+  background-image: url(../img/misir.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -613,7 +613,7 @@ footer a {
 
 }
 .soya-kuspesi{
-  background-image: url(./img/soya-3.jpg);
+  background-image: url(../img/soya-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -622,7 +622,7 @@ footer a {
 }
 
 .glutenli-bugday{
-  background-image: url(./img/glutenli_bugday.jpg);
+  background-image: url(../img/glutenli_bugday.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -631,7 +631,7 @@ footer a {
 }
 
 .bugday-kepegi{
-  background-image: url(./img/bugday-kepegi-1.jpg);
+  background-image: url(../img/bugday-kepegi-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -640,7 +640,7 @@ footer a {
 }
 
 .arpa{
-  background-image: url(./img/arpa.jpg);
+  background-image: url(../img/arpa.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
